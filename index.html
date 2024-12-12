@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>David Torres Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<head>
+		<style>
+			/* Carousel container */
+			.carousel {
+				position: relative;
+				width: 40%;
+				height: 20%;
+				margin: auto;
+				overflow: hidden;
+				border: 2px solid #127143;
+				border-radius: 8px;
+				
+			}
+	
+			/* Images container */
+			.carousel-images {
+				display: flex;
+				transition: transform 0.5s ease-in-out;
+			}
+	
+			/* Individual images */
+			.carousel-images img {
+				width: 100%;
+				border: none;
+			}
+	
+			/* Navigation buttons */
+			.carousel-button {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				border-radius: 50%;
+			}
+	
+			.carousel-button.left {
+				left: 10px;
+			}
+	
+			.carousel-button.right {
+				right: 10px;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/linkedin_foto.jpeg" alt="" /></span>
+							<h1 id="title">David Torres</h1>
+							<p>Mechatronics Engineer</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/david-torresev/"target= "_blank"class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/dtorresev"target= "_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				</div>
+			</div>
+		<!-- Main -->
+			<div id="main">
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<header>
+								<h2 class="alt">Hi! Welcome to my personal portfolio</h2>
+								<p>Here you will find a compilation of my most recent work <br/>
+								throughout my professional development.</p>
+							</header>
+							<footer>
+								<a href="#Robotics&Auto" class=" button scrolly" style="background-color: #c2bc49 "> Robotics and Automation </a>
+								<a href="#Hardware" class=" button scrolly" style="background-color: #bd3e51 "> Hardware </a>
+								<a href="#Electronics" class=" button scrolly" style="background-color: #233576 "> Electronics </a>
+							</footer>
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+				 	<!--Sección de Robótica-->
+					<section id="Robotics&Auto" class="two">
+						<div class="container">
+							<header style="margin-bottom: 10px;">
+								<h2>Robotics and Automation</h2>
+							</header>
+							<p> I've collaborated in a couple of projects with training partners such as 
+								<span style="font-weight: bold;">ABB</span>,<span style="font-weight: bold;"> Omron Automation</span>,
+								<span style="font-weight: bold;"> John Deere</span>, and <span style="font-weight: bold;"> Acuity Brands</span>
+							</p>
+							<div class="row">
+								<div class="col-4 col-12">
+									<!--Proyecto de OMRON para ciber 1-->
+									<article class="item">
+										<a href="#" class="image fit" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+											<img src="images/ld60_map_ciber1.jpg" alt="" style="width: 50%; height: 50%; object-fit: cover;" />
+											<img src="images/Logo-Omron.jpg" alt="" style="width: 40%; height: 50%; object-fit: cover;" />
+										</a>										<header>
+											<h3 > <a href="https://github.com/dtorresev/Omron-Project" target = "_blank"> Omron Project (Ciber-Physical systems I)</a> </h3> <p style="line-height: 1.5; color: #000000;"> 
+												The main objective proposed by training partner Omron Automation is to integrate their equipment, 
+												a TM5M-700 manipulator mounted on an AGV to perform supply and removal of material (micro-logistics) from the Raw Material warehouse to the conveyor
+												 belts and Finished Product warehouse. My main involvement in this process is to perform collaborative robot programming of the TM5M-700, creating 
+												 Pick and Place operations for the removal and manipulation of material, utilizing its 5M pixel integrated camera for image processing, QR Scanning 
+												 for traceability and robotic visual servoing, color detection for quality control and interfacing using Modbus TCP/IP communication.</p>
+										</header>
+									</article>
+									<!--Proyecto de ABB-->
+									<article class="item">
+										<a href="#" class="image fit" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+									
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/OUktw0oBj3M?si=-kWVpqM3TLr2SlvN" title="YouTube video player" frameborder="0" 
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+											allowfullscreen>
+											</iframe>
+											<img src="images/logo-ABB.png" alt="" style="width: 30%; height: 30%; object-fit: cover;" /> 
+
+										</a>										<header>
+											<h3 > <a href="https://www.youtubeeducation.com/watch?v=OUktw0oBj3M" target = "_blank"> ABB Welding Cell</a> </h3> <p style="line-height: 1.5; color: #000000;"> 
+												Using CAD tools like SolidWorks, this project involved the design of an automated welding station 
+												using an ABB industrial robot, adhering to national and international standards such as: NOM-004-STPS-1999, 
+												NOM-018-STPS-2000, NOM-026-STPS-1998 and the ANSI RIA R15.06-1999 to verify the compliance of the proposal with 
+												current industry regulations. Validation was done using ABB RobotStudio 
+												and Cognex Insight Explorer for the integration of industrial vision systems.</p>
+												 
+										</header>
+									</article>
+									<!--Proyecto de ABB-->
+									<article class="item">
+										<a href="#" class="image fit" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+											<img src="images/parker_ps.png" alt="" style="width: 40%; height: 30%; object-fit: cover;" /> 
+											<img src="images/parker_logo.avif" alt="" style="width: 30%; height: 40%; object-fit: cover; margin-left: 10px;" /> 
+											</a>										<header>
+											<h3 > <a> Parker Hannifin, Sporlan Division</a> </h3> <p style="line-height: 1.5; color: #000000;"> 
+												In this project, a proposal was developed to automate the manufacturing process of 
+												thermo-expansive valves from a local factory, the end result provided a solution using
+												 UR collaborative robots that 
+												could outperform tasks manually done by operators by reducing cycle times. 
+												The whole process was recreated using Tecnomatix Process Simulate</p>
+										</header>
+									</article>
+								</div>
+							</div>
+						</div>
+							<!--Sección de Hardware-->
+							<section id="Hardware" class="two">
+								<div class="container">
+							<header style="margin-bottom: 10px;">
+								<h2>Hardware</h2>
+							</header>
+							<p> Info regarding Hardware projects I've been involved in
+							</p>
+
+							<div class="row">
+									<div class="col-4 col-12">
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+											<header>
+												<h3>Magna Nullam</h3>
+											</header>
+										</article>
+										<article class="item">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+											<header>
+												<h3>Natoque Vitae</h3>
+											</header>
+										</article>
+									</div>
+							</div>
+							
+							<!--Sección de Electrónica-->
+							<section id="Electronics" class="two">
+								<div class="container">
+							<header style="margin-bottom: 10px;">
+								<h2> Electronics</h2>
+							</header>
+							<p> Info regarding Electronics projects I've been involved in</p>
+
+							<div class="row">
+									<div class="col-4 col-12">
+									<!--Sección de proyecto JD Carro-->
+									<article class="item" style = "font-size:16pt; background-color: rgb(251, 251, 251); clear: both;">
+										<header> <h3 style = "font-weight: bold;">John Deere <br><span style="font-weight: normal; font-size: 12pt;">Autonomous Vehicle</span> </h3> </header>
+										<!--Carousel JD Carro-->
+												<div id = "carousel1" class="carousel" style = "float: left; margin-right: 10px;"  >
+													<!-- Image container -->
+													<div class="carousel-images">
+														<img src="images/JD_Carro_Front.jpg" alt="Image 1">
+														<img src="images/JD_Carro_Group.jpg" alt="Image 2">
+														<img src="images/JD_Carro_Side.jpg" alt="Image 3">
+														<img src="images/JD_Carro_Upper.jpg" alt="Image 4">
+													</div>
+													<!-- Navigation buttons -->
+													<button class="carousel-button left" onclick="moveCarousel(-1)">&#10094;</button>
+													<button class="carousel-button right" onclick="moveCarousel(1)">&#10095;</button>
+												</div>
+											<p style = "display:flexbox; font-size: 12pt; font-weight:normal; line-height: 1.5; text-align: justify; margin-left: 20px; width:95%; padding-left:1px;">
+												 In this project, we designed an autonomous vehicle using an STM32 microcontroller The main focus this project was the integration of 
+												 multiple sensor input and the development of PID control systems to achieve the desired trajectory to provide 
+												 a higher level of autonomy for the prototype, recreating the autonomous tractor presented at 
+												 <a href="https://www.deere.com/en/our-company/digital-security/autonomous-tractor-reveal/ " target = "_blank" >CES 2022</a>. 
+												 For this particular project my main task involved programming in C using STM32CubeIDE, electronic circuit design for the vehicle, 
+												 PCB design and layout using KiCad, and implementing control systems for speed and orientation. </p>
+									</article>
+
+									<article class="item" style = "font-size:16pt; background-color: rgb(251, 251, 251);">
+										<header> <h3 style = "font-weight: bold;">Shell Eco-marathon 2023-2025 <br><span style="font-weight: normal; font-size: 12pt;">Electronic Speed Controller</span> </h3> </header>
+										<!--Carousel JD Carro-->
+												<div id = "carousel2" class="carousel" style = "float: left; margin-right: 10px; border: 2px solid #cf5353; background-color: rgb(251, 251, 251);"  >
+													<!-- Image container -->
+													<div class="carousel-images">
+														<img src="images/PCBV2_1 (1).png" alt="Image 1">
+														<img src="images/PCBV2_2.png" alt="Image 2">
+														<img src="images/ESC_Testing.jpg" alt="Image 3">
+														<img src="images/ESC_V1.jpg" alt="Image 4">
+													</div>
+													<!-- Navigation buttons -->
+													<button class="carousel-button left" onclick="moveCarousel(-1)">&#10094;</button>
+													<button class="carousel-button right" onclick="moveCarousel(1)">&#10095;</button>
+												</div>
+											<p style = "font-size: 12pt; font-weight:normal; line-height: 1.5; text-align: justify; margin-left: 20px; width:95%; padding-left:1px;">
+												For the debut of Tecnológico de Monterrey Monterrey Campus (<a href="https://github.com/EcoShell-Tec-Racing " target = "_blank">EcoShell Racing</a>) at the Shell Eco-marathon Americas 2024, as the 
+												electronics team leader I developed a motor controller for a 500 W BLDC motor. After obtaining Altium's sponsorship,
+												the design was completed using Altium Desginer. Find out more details regarding this particular design here: </b>
+												<a href="https://github.com/EcoShell-Tec-Racing/Controlador-ESC " target="_blank" class = "button scrolly" style=" padding: 0.5em 0.5em 0.5em 0.5em;; background-color: #677dca; color: aliceblue;"> Full Repository </a>	
+											
+											</p>
+									</article>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+							<header style="margin-bottom: 10px;">
+								<h2>About Me</h2>
+							</header>
+							<a href="#" class="image fit" style=" display: flex; justify-content: center; align-items: center; width: 100%;">
+								<img src="images/IMOF.jpg" alt="" style="width: 30%; height: 30%; object-fit: cover;" />
+								<img src="images/SEMA_Javi_yo.jpg" alt="" style="width: 30%; height: 30%; object-fit: cover;" />
+								<img src="images/schneider_selfie.jpg" alt="" style="width: 30%; height: 30%; object-fit: cover;" />
+							</a>
+
+							<p style="font-size:14pt; line-height: 1.5; margin: 0;">
+								Born and raised in Monterrey, I am currently in my senior year pursuing a Bachelor of Science 
+								in Mechatronics Engineering at Tecnológico de Monterrey, Monterrey Campus. I thrive on taking 
+								on challenges that push me to learn, grow, and refine my skills. Whether it's leadership, teamwork,
+								 or embracing responsibility, I actively seek opportunities to step out of my comfort zone.
+								<br><br>
+								I am passionate about attending and participating in symposiums, congresses, and seminars, 
+								where I can expand my knowledge and network with like-minded professionals. My involvement 
+								in various student groups has allowed me to contribute to national and international projects,
+								 broadening my perspective and skill set.
+								<br><br>
+								Currently, I am interning at Schneider Electric as an Electronic Components Intern. 
+								This role has provided me with invaluable professional and personal growth opportunities 
+								within a company that prioritizes innovation, sustainability, and environmental impact. 
+								Being part of diverse projects at Schneider Electric has deepened my understanding of how 
+								technology can drive positive change globally.
+							</p>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+
+		<!--Carousel JD Carro-->
+			<div id = "carousel2" class="carousel">
+				<!-- Image container -->
+				<div class="carousel-images">
+					<img src="images/JD_Carro_Front.jpg" alt="Image 1">
+					<img src="images/JD_Carro_Group.jpg" alt="Image 2">
+					<img src="images/JD_Carro_Side.jpg" alt="Image 3">
+					<img src="images/JD_Carro_Upper.jpg" alt="Image 4">
+				</div>
+				<!-- Navigation buttons -->
+				<button class="carousel-button left">&lt;</button>
+				<button class="carousel-button right">&gt;</button>
+			</div>
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+			function initializeCarousel(carouselId) {
+					const carousel = document.querySelector(`#${carouselId}`);
+					const images = carousel.querySelector('.carousel-images');
+					const nextButton = carousel.querySelector('.right');
+					const prevButton = carousel.querySelector('.left');
+
+					let currentIndex = 0;
+					const imageCount = images.children.length;
+
+					nextButton.addEventListener('click', () => {
+						currentIndex = (currentIndex + 1) % imageCount;
+						images.style.transform = `translateX(-${currentIndex * 100}%)`;
+					});
+
+					prevButton.addEventListener('click', () => {
+						currentIndex = (currentIndex - 1 + imageCount) % imageCount;
+						images.style.transform = `translateX(-${currentIndex * 100}%)`;
+					});
+				}
+				// Initialize each carousel
+				initializeCarousel('carousel1');
+				initializeCarousel('carousel2');
+			</script>
+
+	</body>
+</html>
